@@ -1,0 +1,241 @@
+body{ 
+    background-image: linear-gradient(#287781, #7EADB3);
+    text-align: center;
+    color: #ffffff;
+}
+a {
+    color:white;
+}
+a:hover {
+    color:white;
+    text-decoration-line:underline;
+    text-decoration-color:white;
+    text-decoration-style:solid;
+}
+footer .nav-link:hover {
+    color:black;
+    text-decoration-line:underline;
+    text-decoration-color:black;
+    text-decoration-style:solid;
+}
+
+header p {
+    color: #FCFCFC;
+    font-size: 60px;
+    font-family:'Montserrat', Helvetica, sans-serif;
+    padding: 56px 0px 0px 0px;
+    margin-bottom: 80px;
+    font-weight:600;
+}
+.nav-item {
+    color: #FCFCFC;
+    font-family:'Montserrat', Helvetica, sans-serif;
+    font-size:20px;
+}
+
+section p {
+    font-family:'Hind', Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 0px 30% 0px 30%;
+    padding: 0px 0px 20px 0px
+}
+
+h1{
+    margin: 40px 0px 40px 0px;
+}
+
+.btn-primary{
+    background-color: #CC794E;
+    border:none;
+    box-shadow:#CC794E;
+    border-radius: 40px;
+    padding-top: 18px;
+    width: 260px;
+    height: 70px;
+    font-size: 24px;
+    margin: auto 0;
+}
+
+.btn-primary:hover{
+    background-color: #B86528;
+}
+
+.cta{
+    margin: 20px 0px 80px 0px;
+}
+
+.card{
+    color: #666666;
+}
+
+/*footer section*/
+
+#appstore{
+    text-align: left;
+    padding-left: 40px;
+}
+
+#social{
+    text-align: right;
+    padding-right: 40px;
+}
+
+#social img{
+    padding: 0px 14px 14px 0px;
+}
+
+footer{
+    padding: 40px 0px 40px 0px;
+    font-family:'Hind', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#footernav ul li{
+   margin: 0 auto;
+}
+
+#footernav a{
+    color: #000000;
+}
+
+/* top nav */
+.nav-link {
+    color:white;
+}
+.nav-link:hover {
+    color:white;
+    text-decoration-line:underline;
+    text-decoration-color:white;
+    text-decoration-style:solid;
+}
+.nav-link.active {
+    color:white;
+    font-weight:600;
+}
+.nav-link.active:hover {
+    color:white;
+    font-weight:600;
+}
+
+
+/* Team Code Nate Found - Team design card flipper using Bootstrap 4*/
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;    
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #287781 !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #287781 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* End of Nate's cards */
+
+.card p{
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    border-radius:10px;
+}
